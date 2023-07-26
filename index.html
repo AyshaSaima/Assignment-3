@@ -46,7 +46,7 @@
 
     <header>
         <nav>
-            <div class="navbar  bg-fruit-primary rounded-full my-8 text-white">
+            <div class="navbar bg-white md:bg-fruit-primary rounded-full my-8 text-black lg:text-white">
                 <div class="navbar-start absolute">
                   <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
@@ -72,14 +72,16 @@
                     </div>
                   </div>
                 
-                <div class="navbar-center">
+                <div class="navbar-center md:pr-40 lg:pr-40">
                     <img src="images/logo.png" alt="">
-                  <a class="btn btn-ghost normal-case text-4xl ">Fruit Burst</a>
+                  <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
                 </div>
+               <div class="hidden md:flex lg:flex">
                 <div class="navbar-end">
-                    <input type="text" placeholder="Search here" class="relative input input-bordered input-primary w-full max-w-xs rounded-full" /><span class="pr-20"></span>
+                    <input type="text" placeholder="Search here" class="input input-bordered input-primary w-[100px] max-w-xs rounded-full" /><span class="pr-20"></span>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
+               </div>
               </div>
         </nav>
         <!-- slider or carousel -->
@@ -151,33 +153,47 @@
           </div>
 
           <!-- banner bonus -->
-          <div class="grid grid-cols-5 bg-white w-[1000px] pt-7 pb-8 gap-16 rounded-md absolute top-[520px] ml-24 shadow-xl">
+          <div class="hidden md:flex justify-around items-center pt-7 pb-7 bg-white w-[1000px]  rounded-md absolute top-[530px] ml-24 shadow-xl">
               <div>
                 <img src="images/fruit1.png" alt="">
-                <p>Blueberry</p>
+                <p class="text-center">Blueberry</p>
 
               </div>
               <div>
                 <img src="images/fruit2.png" alt="">
-                <p>Orange</p>
+                <p class="text-center">Orange</p>
               </div>
               <div>
                 <img src="images/fruit3.png" alt="">
-                <p>Mango</p>
+                <p class="text-center">Mango</p>
               </div>
               <div>
                 <img src="images/fruit4.png" alt="">
-                <p>Strawberry</p>
+                <p class="text-center">Strawberry</p>
               </div>
               <div>
                 <img src="images/fruit5.png" alt="">
-                <p>pomegranate</p>
+                <p class="text-center">pomegranate</p>
               </div>
           </div>
 
     </header>
 
-    <main>
+    <main class="md:container md:mx-auto">
+
+        <!-- meet the team section -->
+        <section class="my-[230px]">
+            <div class="hero h-[450px]" style="background-image: url(images/banner1.png);">
+                <div class="hero-overlay bg-opacity-70"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                    <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    
+                  </div>
+                </div>
+              </div>
+        </section>
 
     </main>
 
