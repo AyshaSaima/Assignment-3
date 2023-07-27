@@ -47,50 +47,53 @@
 
     <header class="lg:mx-20">
         <nav>
-            <div class="navbar bg-white md:bg-fruit-primary rounded-full my-8 text-black lg:text-white">
-                <div class="navbar-start absolute">
-                    <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h16M4 18h7" />
-                            </svg>
-                        </label>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg">
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All fruits</a></li>
-                        </ul>
+        
+                <div class="navbar bg-white md:bg-white lg:bg-fruit-primary rounded-full my-8 text-black md:text-black lg:text-white">
+                    <div class="navbar-start absolute">
+                        <div class="dropdown">
+                            <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h7" />
+                                </svg>
+                            </label>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg">
+                                <li><a>Home</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>All fruits</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-start">
+                        <div class="hidden md:hidden lg:flex">
+    
+                            <ul tabindex="0" class="menu menu-horizontal">
+                                <li><a>Home</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>All fruits</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="navbar-center md:pr-40 lg:pr-40">
+                        <img src="images/logo.png" alt="">
+                        <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
+                    </div>
+                    <div class="hidden md:hidden lg:flex">
+                        <div class="navbar-end">
+                            <input type="text" placeholder="Search here"
+                                class="input input-bordered input-primary w-[100px] max-w-xs rounded-full" /><span
+                                class="pr-20"></span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
                     </div>
                 </div>
-                <div class="navbar-start">
-                    <div class="hidden md:flex">
-
-                        <ul tabindex="0" class="menu menu-horizontal">
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All fruits</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="navbar-center md:pr-40 lg:pr-40">
-                    <img src="images/logo.png" alt="">
-                    <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
-                </div>
-                <div class="hidden md:flex lg:flex">
-                    <div class="navbar-end">
-                        <input type="text" placeholder="Search here"
-                            class="input input-bordered input-primary w-[100px] max-w-xs rounded-full" /><span
-                            class="pr-20"></span>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                </div>
-            </div>
+            
+            
         </nav>
         <!-- slider or carousel -->
         <div class="carousel w-full">
